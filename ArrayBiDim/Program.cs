@@ -6,7 +6,14 @@ namespace ArrayBiDim
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("insira dimensao horizontal:");
+            float h = Console.ReadLine();//
+
+            Console.WriteLine("insira dimensao vertical:");
+            float v = Console.ReadLine();//
+
+
+
         }
     }
 }
