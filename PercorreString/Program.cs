@@ -13,9 +13,13 @@ namespace OlaMundo
             string s = Console.ReadLine(); 
 
             Console.WriteLine("insira o caractere a omitir");
-            char c = Console.Read();
+            char[] c = Console.Read();
 
-            string novaString = s.TrimEnd(c); //
+            foreach(char c in s)
+            {
+                Console.WriteLine(s.Trim(c));
+            }
+           
         }
     }
 }
