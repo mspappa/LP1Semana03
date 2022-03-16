@@ -18,41 +18,41 @@ namespace NPCPerks
             npcPerks = new Perks[numNPCs];
 
             // For each NPC, ask for its perks
-            for (int n = 0; n < numNPCs; n++)
+            for (int i = 0; i < numNPCs; i++)
             {
                 // User input
                 string input;
 
                 // Stealth?
-                Console.Write($"Does NPC {n} has stealth (y/n)? ");
+                Console.Write($"Does NPC {i} has stealth (y/i)? ");
                 input = Console.ReadLine();
                 if (input == "y")
                 {
-                    npcPerks[n] |= Perks.Stealth;
+                    npcPerks[i] |= Perks.Stealth;
                 }
 
                 // Combat?
-                Console.Write($"Does NPC {n} has combat (y/n)? ");
+                Console.Write($"Does NPC {i} has combat (y/i)? ");
                 input = Console.ReadLine();
                 if (input == "y")
                 {
-                    npcPerks[n] |= Perks.Combat;
+                    npcPerks[i] |= Perks.Combat;
                 }
 
                 // Lockpick?
-                Console.Write($"Does NPC {n} has lockpick (y/n)? ");
+                Console.Write($"Does NPC {i} has lockpick (y/i)? ");
                 input = Console.ReadLine();
                 if (input == "y")
                 {
-                    npcPerks[n] |= Perks.Lockpick;
+                    npcPerks[i] |= Perks.Lockpick;
                 }
 
                 // Luck?
-                Console.Write($"Does NPC {n} has luck (y/n)? ");
+                Console.Write($"Does NPC {i} has luck (y/i)? ");
                 input = Console.ReadLine();
                 if (input == "y")
                 {
-                    npcPerks[n] |= Perks.Luck;
+                    npcPerks[i] |= Perks.Luck;
                 }
             }
 
