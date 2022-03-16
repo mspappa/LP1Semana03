@@ -24,7 +24,7 @@ namespace NPCPerks
                 string input;
 
                 // Stealth?
-                Console.Write($"Does NPC {i} has stealth (y/i)? ");
+                Console.Write($"Does NPC {i} has stealth (y/n)? ");
                 input = Console.ReadLine();
                 if (input == "y")
                 {
@@ -32,7 +32,7 @@ namespace NPCPerks
                 }
 
                 // Combat?
-                Console.Write($"Does NPC {i} has combat (y/i)? ");
+                Console.Write($"Does NPC {i} has combat (y/n)? ");
                 input = Console.ReadLine();
                 if (input == "y")
                 {
@@ -40,7 +40,7 @@ namespace NPCPerks
                 }
 
                 // Lockpick?
-                Console.Write($"Does NPC {i} has lockpick (y/i)? ");
+                Console.Write($"Does NPC {i} has lockpick (y/n)? ");
                 input = Console.ReadLine();
                 if (input == "y")
                 {
@@ -48,7 +48,7 @@ namespace NPCPerks
                 }
 
                 // Luck?
-                Console.Write($"Does NPC {i} has luck (y/i)? ");
+                Console.Write($"Does NPC {i} has luck (y/n)? ");
                 input = Console.ReadLine();
                 if (input == "y")
                 {
